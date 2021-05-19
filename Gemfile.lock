@@ -225,7 +225,9 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
-    mimemagic (0.3.4)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_magick (4.10.1)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
@@ -270,7 +272,8 @@ GEM
     polyamorous (2.3.2)
       activerecord (>= 5.2.1)
     public_suffix (4.0.3)
-    puma (3.12.4)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     pundit (2.1.0)
       activesupport (>= 3.0.0)
     rack (2.2.2)
@@ -416,7 +419,7 @@ DEPENDENCIES
   omniauth (~> 1.6, >= 1.6.1)
   omniauth-linkedin-oauth2
   pg
-  puma (~> 3.11)
+  puma (~> 4.3)
   pundit
   rails (~> 5.2.4, >= 5.2.4.1)
   refile!
