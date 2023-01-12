@@ -43,7 +43,7 @@ gem 'refile-s3', git: 'https://github.com/refile/refile-s3'
 gem "refile-input", require: ["inputs/refile_input"]
 gem 'httparty'
 gem 'money-rails', '~>1.12'
-gem 'omniauth', '~> 1.6', '>= 1.6.1'
+gem 'omniauth', '~> 1.9'
 gem 'omniauth-linkedin-oauth2'
 
 # Reduces boot times through caching; required in config/boot.rb
