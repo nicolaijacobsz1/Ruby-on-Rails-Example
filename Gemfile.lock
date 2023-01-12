@@ -325,7 +325,7 @@ GEM
       railties (>= 5.0)
     responsive_active_admin (0.0.6)
       activeadmin
-    rexml (3.2.4)
+    rexml (3.2.5)
     rubocop (0.80.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
