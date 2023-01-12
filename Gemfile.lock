@@ -230,7 +230,7 @@ GEM
       rake
     mini_magick (4.10.1)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.6.1)
     minitest (5.14.0)
     monetize (1.9.4)
       money (~> 6.12)
@@ -248,8 +248,9 @@ GEM
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.2)
-    nokogiri (1.10.9)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
     oauth2 (1.4.4)
       faraday (>= 0.8, < 2.0)
       jwt (>= 1.0, < 3.0)
@@ -275,6 +276,7 @@ GEM
     puma (3.12.4)
     pundit (2.1.0)
       activesupport (>= 3.0.0)
+    racc (1.6.2)
     rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
